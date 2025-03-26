@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>O!RUL8,2?</title>
+<link rel="stylesheet" href="https://unpkg.com/7.css" />
+</head>
+	
+<body>
+<div class="title-bar">
+<div class="title-bar-text">(Friend) Mayra – Convo</div>
+<div class="title-bar-controls">
+<button aria-label="Minimize"></button>
+<button aria-label="Maximize"></button>
+<button aria-label="Close"></button>
+</div>
+</div>
+
+<ul role="menubar" class="can-hover">
+<li role="menuitem" tabindex="0" aria-haspopup="true">
+    File
+<ul role="menu">
+<li role="menuitem">
+<a href="#menubar">
+Open <span>Ctrl+O</span>
+</a>
+</li>
+<li role="menuitem">
+<a href="#menubar">
+Save <span>Ctrl+S</span>
+</a>
+</li>
+<li role="menuitem" class="has-divider">
+<a href="#menubar">
+Save As... <span>Ctrl+Shift+S</span>
+</a>
+</li>
+<li role="menuitem"><a href="#menubar">Exit</a></li>
+</ul>
+</li>
+<li role="menuitem" tabindex="0" aria-haspopup="true">
+    Edit
+<ul role="menu">
+<li role="menuitem"><a href="#menubar">Undo</a></li>
+<li role="menuitem"><a href="#menubar">Copy</a></li>
+<li role="menuitem"><a href="#menubar">Cut</a></li>
+<li role="menuitem" class="has-divider"><a href="#menubar">Paste</a></li>
+<li role="menuitem"><a href="#menubar">Delete</a></li>
+<li role="menuitem"><a href="#menubar">Find...</a></li>
+<li role="menuitem"><a href="#menubar">Replace...</a></li>
+<li role="menuitem"><a href="#menubar">Go to...</a></li>
+</ul>
+</li>
+<li role="menuitem" tabindex="0" aria-haspopup="true">
+View
+<ul role="menu">
+<li role="menuitem" tabindex="0" aria-haspopup="true">
+Zoom
+<ul role="menu">
+<li role="menuitem"><button>Zoom In</button></li>
+<li role="menuitem"><button>Zoom Out</button></li>
+</ul>
+</li>
+<li role="menuitem"><a href="#menubar">Status Bar</a></li>
+</ul>
+</li>
+<li role="menuitem" tabindex="0" aria-haspopup="true">
+    Help
+<ul role="menu">
+<li role="menuitem"><a href="#menubar">View Help</a></li>
+<li role="menuitem"><a href="#menubar">About</a></li>
+</ul>
+</li>
+</ul>
+
+<div id="home">
+<div id="container01">
+<div id="left">
+<p class="p01">To: Rei ✉️</p>
+<div id="scroll01"><mark>@nikirefuge</mark> oii sou a <strong>mayra</strong> ou <u>nine!</u> <br> <mark>@user</mark> oii! me conta mais de vc <br> <mark>@nikirefuge</mark> tenho 18, sou ela/dela capricorniana, army e engene ˖˚.࿐  <br> <mark>@user</mark> nss que legal diva!</div>
+<p class="p02"><button id="button01">send</button></p>
+</div>
+
+<div id="right">
+<img class="image01"src="https://i.pinimg.com/736x/8f/dc/f5/8fdcf5d223eb793df7886104d234beb8.jpg">
+<div class="p03">▼</div>
+</div>
+
+</div>
+<div id="container02">
+
+</div>
+</div>
+
+<div id="container03">
+<button id="button02" onclick="backHome()">Home</button>
+<button id="button03" onclick="openOne()">Rules</button>
+<button id="button04" onclick="openTwo()">Loves</button>
+</div>
+
+<div id="rules" style="display: none;">
+<div class="window active" style="position: absolute; top: 4.3em;left: 0.5em;width:10.1em;height:11.2em;">
+<div class="title-bar" style="width: 10em;">
+<div class="title-bar-text">01.png</div>
+<div class="title-bar-controls">
+<button aria-label="Close" onclick="backHome()"></button>
+</div>
+</div>
+	
+<div class="window-body">
+<img id="image02" src="https://i.pinimg.com/736x/27/87/d0/2787d09aa11952f8b16141b33af3b536.jpg">
+</div>
+</div>
+	
+<div class="window active" style="position: absolute; top: 2.8em;right: 0.5em;max-width: 14em;height:11em;">
+<div class="title-bar" style="width: 13.9em;">
+<div class="title-bar-text">rules.txt</div>
+<div class="title-bar-controls">
+<button aria-label="Minimize"></button>
+<button aria-label="Maximize"></button>
+<button aria-label="Close" onclick="backHome()"></button>
+</div>
+</div>
+<div class="window-body has-space" style="height:8em;overflow-y:scroll;">
+<strong>to know:</strong> falo sobre minha vida, reflito e faço reclamações, sumo as vezes, também acompanho e falo de grupos além dos banghypen e de novel/livro/outras coisas. <br><br> <strong>go away:</strong> racista, ot6/solo, preconceituoso com qualquer comunidade, sem interesses em comum, only blink e only exol.
+</div>
+</div>
+
+</div>
+
+<div id="loves" style="display: none;">
+<div class="window active" style="position: absolute; top: 4.3em;left: 0.5em;max-width: 14em;height:11em;">
+<div class="title-bar" style="width: 13.85em;">
+<div class="title-bar-text">loves.txt</div>
+<div class="title-bar-controls">
+<button aria-label="Minimize"></button>
+<button aria-label="Maximize"></button>
+<button aria-label="Close" onclick="backHome()"></button>
+</div>
+</div>
+<div class="window-body has-space" style="height:8em;overflow-y:scroll;">
+<strong>me core:</strong> facul de letras, idiomas, dança e au's... <br><br> <strong>media:</strong> BTS yoongi hoseok, ENHYPEN ni-ki, tgcf, sysss, mdzs, all for the game, SHINEE, &TEAM, SKZ e TWICE
+</div>
+</div>
+	
+<div class="window active" style="position: absolute; top: -2em;right: 0.5em;width:9.1em;height:10.2em;">
+<div class="title-bar" style="width:9em;">
+<div class="title-bar-text">02.png</div>
+<div class="title-bar-controls">
+<button aria-label="Close" onclick="backHome()"></button>
+</div>
+</div>
+	
+<div class="window-body">
+<img id="image03" src="https://i.pinimg.com/736x/45/f0/76/45f076c64243ed6e51f8ff3ab9d5f913.jpg">
+</div>
+</div>
+	
+<div class="window active" style="position: absolute; top: 9em; right: 1em;width:10.1em;height:11.2em;">
+<div class="title-bar" style="width: 10em;">
+<div class="title-bar-text">03.png</div>
+<div class="title-bar-controls">
+<button aria-label="Close" onclick="backHome()"></button>
+</div>
+</div>
+<div class="window-body">
+<img id="image04" src="https://i.pinimg.com/736x/e3/c3/07/e3c307b5a83fcafbc83c3e74154dc57c.jpg">
+</div>
+</div>
+
+</div>
+<script>
+function backHome() {
+document.getElementById("rules").style.display = "none";
+document.getElementById("loves").style.display = "none";
+}
+
+function openOne() {
+document.getElementById("rules").style.display = "block";
+document.getElementById("loves").style.display = "none";
+}
+
+function openTwo() {
+document.getElementById("rules").style.display = "none";
+document.getElementById("loves").style.display = "block";
+}
+</script>
+</body>
+
+<style>
+@font-face {
+font-family: windows;
+src: url("https://dl.dropbox.com/s/cn0l1yjacta4whv/W95FA.otf");
+}
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: windows;
+}
+
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 0;
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background: transparent;
+}
+
+body {
+background: white;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: fixed;
+animation: fadeIn 1.8s;
+}
+
+.title-bar {
+width: 26em;
+}
+
+.can-hover {
+border: 1px solid #222;
+border-top: none;
+}
+
+#container01, #container02, #container03 {
+width: 26em;
+border: 1px solid #222;
+border-top: none;
+padding: 0.5em;
+display: flex;
+gap: 0.5em;
+}
+
+#container02 {
+border-radius: 0 0 0.5em 0.5em;
+align-items: center;
+}
+
+#container03 {
+width: 14em;
+border-bottom: none;
+border-top: 1px solid #222;
+border-radius: 0.5em 0.5em 0 0;
+rotate: 90deg;
+position: absolute;
+right: -8.3em;
+bottom:7em;
+padding: 0.3em;
+gap: 0.3em;
+}
+
+#left {
+width: 16em;
+}
+
+.p01 {
+background: #d3dfed;
+border: 1px solid #457ab7;
+border-radius: 5px 5px 0px 0px;
+padding: 2px 5px;
+}
+
+#scroll01 {
+height: 5.8em;
+line-height: 1.2;
+border-left: 1px solid #457ab7;
+border-right: 1px solid #457ab7;
+padding: 0.5em;
+overflow-y:scroll;
+}
+
+mark {
+color: #969696;
+font-weight: bold;
+background: none;
+}
+
+.p02 {
+background: #d3dfed;
+font-size: 14px;
+font-family: windows;
+text-align: right;
+border: 1px solid #457ab7;
+border-radius: 0px 0px 5px 5px;
+padding: 2px 5px;
+}
+    
+#button01 {
+min-width: 0px;
+padding: 0 10px;
+font-family: windows;
+}
+
+#button02, #button03, #button04 {
+min-width: 0px;
+font-family: windows;
+padding: 0 9px;
+}
+
+#right {
+border:1px solid #a6a6a6;
+border-radius: 0.5em
+}
+
+.image01 {
+width: 9em;
+height: 8.5em;
+border-radius: 0.5em 0.5em 0 0; 
+object-fit: cover;
+}
+
+.p03 {
+width: 100%;
+color: #457ab7;
+line-height: 1;
+text-align: right;
+}
+
+.marquee {
+width: 8em;
+}
+
+#image02 {
+width: 8.8em;
+height: 7.8em;
+object-fit: cover;
+}
+
+#image03 {
+width:7.8em;
+height:7em;
+object-fit: cover;
+}
+
+#image04 {
+width:8.8em;
+height:8em;
+object-fit: cover;
+}
+</style>
+</html>
